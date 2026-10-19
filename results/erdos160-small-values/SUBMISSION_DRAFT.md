@@ -43,4 +43,5 @@ receives at least 3 distinct colors.
 > Extremal colourings are rare: up to colour permutation and reversal there is exactly one for k=3
 > (0 0 1 2 1 0 2 1 0 1 2 2), three for k=4 and five for k=5.
 > The first terms 12, 22, 35 are pentagonal numbers, but M(6) = 53 ≠ 51 breaks the pattern.
-> Witnesses, CNFs, the cube set and the checkers: https://github.com/scottschluer/erdos160.
+> Witnesses, CNFs, the cube set and the checkers: https://github.com/scottschluer/erdos160
+> (archived at https://doi.org/10.5281/zenodo.23473523).

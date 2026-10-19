@@ -1,10 +1,14 @@
 # Erdős Problem #160 small values, and graphs counted by treewidth
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23473523.svg)](https://doi.org/10.5281/zenodo.23473523)
+
 Two new results in computational combinatorics, with everything needed to check them.
 A team of AI agents produced them on 18 October 2026, and every claim was recomputed by a second agent using independently
 written code (see [How this was made](#how-this-was-made)).
 
-A one-page summary is in [`DISCOVERIES.md`](DISCOVERIES.md).
+A one-page summary is in [`DISCOVERIES.md`](DISCOVERIES.md). Archived on Zenodo:
+[10.5281/zenodo.23473523](https://doi.org/10.5281/zenodo.23473523) (all versions; v1.0.0 is
+[10.5281/zenodo.23473524](https://doi.org/10.5281/zenodo.23473524)).
 
 ## 1. Erdős Problem #160: first exact small values
 

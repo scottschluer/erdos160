@@ -10,7 +10,8 @@ and that no sequence with the data below has appeared (search the first ~10 term
 - Comment: "a(10)-a(13) were confirmed by exhaustive generation (nauty geng with treewidth pruning, two independent
   implementations). The b-file was computed from the cycle-index decomposition of series-parallel graphs (networks,
   SPQR-tree dissymmetry, block decomposition), again with two independent implementations."
-- Links: b-file; Giménez, Noy and Rué, arXiv:0712.1869 (2-connected SP counts); Drmota, Fusy, Kang, Kraus and Rué,
+- Links: b-file; data and code at https://github.com/scottschluer/erdos160 (archived at
+  https://doi.org/10.5281/zenodo.23473523); Giménez, Noy and Rué, arXiv:0712.1869 (2-connected SP counts); Drmota, Fusy, Kang, Kraus and Rué,
   Asymptotic study of subcritical graph classes, SIAM J. Discrete Math. 25 (2011) (growth constant 9.38527...).
 - Extensions line: "a(10)-a(100) from <name>, Oct 2026".
 
