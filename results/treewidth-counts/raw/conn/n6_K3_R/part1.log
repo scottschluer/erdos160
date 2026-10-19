@@ -1,0 +1,11 @@
+TWE 6 2 7 2
+TWE 6 2 8 2
+TWE 6 2 9 1
+TWE 6 3 8 3
+TWE 6 3 9 6
+TWE 6 3 10 8
+TWE 6 3 11 3
+TWE 6 3 12 1
+TW 6 2 5
+TW 6 3 21
+TWINFO n=6 K=3 DEC=R CAP=99 CHECK=0 nout=26 prune_calls=102 mismatches=0 cpu=0.00

@@ -1,0 +1,9 @@
+blocks    fit order 2: gamma ~ 8.051477845
+blocks    fit order 3: gamma ~ 8.051592321
+blocks    fit order 4: gamma ~ 8.051588316
+connected fit order 2: gamma ~ 9.38502292
+connected fit order 3: gamma ~ 9.385279449
+connected fit order 4: gamma ~ 9.38526439
+all       fit order 2: gamma ~ 9.38497341
+all       fit order 3: gamma ~ 9.38528409
+all       fit order 4: gamma ~ 9.385263913

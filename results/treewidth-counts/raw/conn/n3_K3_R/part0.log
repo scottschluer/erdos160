@@ -1,0 +1,5 @@
+TWE 3 1 2 1
+TWE 3 2 3 1
+TW 3 1 1
+TW 3 2 1
+TWINFO n=3 K=3 DEC=R CAP=99 CHECK=0 nout=2 prune_calls=9 mismatches=0 cpu=0.00

@@ -1,0 +1,22 @@
+{
+ "n": 2,
+ "parts": 4,
+ "tw_counts": {
+  "1": 1
+ },
+ "over_cap": 0,
+ "total": 1,
+ "info": {
+  "nout": 1,
+  "prune_calls": 3,
+  "mismatches": 0,
+  "cpu": 0.0,
+  "K": "3",
+  "DEC": "R",
+  "CHECK": "0",
+  "CAP": "99"
+ },
+ "cells_tw_edges": {
+  "1,1": 1
+ }
+}

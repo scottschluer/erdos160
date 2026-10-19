@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use these results or data, please cite them as below."
+title: "Erdős Problem #160 small values, and unlabeled graphs counted by treewidth"
+authors:
+  - family-names: Schluer
+    given-names: Scott
+abstract: >-
+  First exact small values for Erdős Problem #160: M(3..6) = 12, 22, 35, 53 (so h(N) is exact for N <= 76),
+  with M(7) >= 76 and M(8) >= 97, certified by checked DRAT/LRAT proofs. OEIS A362908 (graphs with treewidth 2)
+  extended to n = 100 by an exact generating function verified against exhaustive enumeration for n <= 14; new terms of
+  A362907 and rows 10-11 of A263294; counts of connected and all K4-minor-free graphs. Produced by a team of AI agents
+  (Anthropic's Claude) with independent verification, operated by Scott Schluer.
+date-released: 2026-10-19
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/scottschluer/erdos160"
+keywords:
+  - Erdős problems
+  - arithmetic progressions
+  - SAT
+  - cube-and-conquer
+  - treewidth
+  - series-parallel graphs
+  - OEIS

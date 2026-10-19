@@ -1,0 +1,50 @@
+== 1. witness colourings (lower bounds M(k) >= N)
+-- k4_N22.txt
+N         : 22
+colours   : 4 distinct used (claimed k = 4)
+4-APs     : 70 checked
+VERDICT   : VALID colouring of [1..22] with 4 colours => h(22) <= 4, M(4) >= 22
+-- k5_N35.txt
+N         : 35
+colours   : 5 distinct used (claimed k = 5)
+4-APs     : 187 checked
+VERDICT   : VALID colouring of [1..35] with 5 colours => h(35) <= 5, M(5) >= 35
+-- k6_N53.txt
+N         : 53
+colours   : 6 distinct used (claimed k = 6)
+4-APs     : 442 checked
+VERDICT   : VALID colouring of [1..53] with 6 colours => h(53) <= 6, M(6) >= 53
+-- k7_N73.txt
+N         : 73
+colours   : 7 distinct used (claimed k = 7)
+4-APs     : 852 checked
+VERDICT   : VALID colouring of [1..73] with 7 colours => h(73) <= 7, M(7) >= 73
+== 2. UNSAT at N = M(k)+1 (upper bounds), own encoding, cadical + DRAT
+wrote scratch/h160_verify/v_N13_k3_sb.cnf: 39 vars, 144 clauses
+-- k=3 N=13: s UNSATISFIABLE
+c 68 of 144 clauses in core                            
+c 27 of 62 lemmas in core using 399 resolution steps
+c 0 RAT lemmas in core; 0 redundant literals in core lemmas
+s VERIFIED
+   lrat-check: c VERIFIED
+wrote scratch/h160_verify/v_N23_k4_sb.cnf: 92 vars, 692 clauses
+-- k=4 N=23: s UNSATISFIABLE
+c 469 of 692 clauses in core                            
+c 2494 of 3505 lemmas in core using 42973 resolution steps
+c 0 RAT lemmas in core; 0 redundant literals in core lemmas
+s VERIFIED
+   lrat-check: c VERIFIED
+wrote scratch/h160_verify/v_N36_k5_sb.cnf: 180 vars, 2520 clauses
+-- k=5 N=36: s UNSATISFIABLE
+c 2039 of 2520 clauses in core                            
+c 499646 of 646307 lemmas in core using 19446025 resolution steps
+c 0 RAT lemmas in core; 0 redundant literals in core lemmas
+s VERIFIED
+   lrat-check: c VERIFIED
+== 3. exhaustive backtracking (no SAT): counts at N=M(k), zero at N=M(k)+1
+N=12 k=3: 1 colourings up to colour permutation (using <= 3 colours); 1 up to permutation+reversal
+N=13 k=3: 0 colourings up to colour permutation (using <= 3 colours); 0 up to permutation+reversal
+N=22 k=4: 6 colourings up to colour permutation (using <= 4 colours); 3 up to permutation+reversal
+N=23 k=4: 0 colourings up to colour permutation (using <= 4 colours); 0 up to permutation+reversal
+N=35 k=5: 10 colourings up to colour permutation (using <= 5 colours); 5 up to permutation+reversal
+N=36 k=5: 0 colourings up to colour permutation (using <= 5 colours); 0 up to permutation+reversal

@@ -1,0 +1,15 @@
+{
+  "title": "Erdős Problem #160 small values, and unlabeled graphs counted by treewidth",
+  "upload_type": "dataset",
+  "description": "<p>First exact small values for Erdős Problem #160 (h(N), the least number of colours of {1..N} such that every 4-term arithmetic progression receives at least 3 colours): M(3..6) = 12, 22, 35, 53, so h(N) is exact for every N &le; 76; lower bounds M(7) &ge; 76 and M(8) &ge; 97. Upper bounds are SAT refutations with checked DRAT/LRAT certificates; M(6) uses a centre-block cube-and-conquer over 10,067 symmetry classes.</p><p>OEIS A362908 (unlabeled graphs with treewidth 2) extended to n = 100 by an exact generating function (two independent implementations; agrees with exhaustive enumeration for n &le; 14); new terms of A362907 (treewidth 3, n = 10..12) and rows 10 and 11 of A263294; counts of connected and all K4-minor-free graphs to n = 100.</p><p>Produced by a team of AI agents (Anthropic's Claude) working in Bullpen and operated by Scott Schluer. Every claim was recomputed by a second agent with independently written code. Includes witnesses, CNFs with SHA-256 sums, the cube set, checkers and one-command re-runs.</p>",
+  "creators": [{"name": "Schluer, Scott"}],
+  "license": "cc-by-4.0",
+  "keywords": ["Erdős problems", "arithmetic progressions", "SAT", "cube-and-conquer", "treewidth", "series-parallel graphs", "OEIS"],
+  "related_identifiers": [
+    {"identifier": "https://www.erdosproblems.com/160", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "https://oeis.org/A362908", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "https://oeis.org/A362907", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "https://oeis.org/A263294", "relation": "isSupplementTo", "scheme": "url"}
+  ],
+  "version": "1.0.0"
+}

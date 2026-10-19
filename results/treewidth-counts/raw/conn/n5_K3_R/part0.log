@@ -1,0 +1,11 @@
+TWE 5 1 4 3
+TWE 5 2 5 5
+TWE 5 2 6 5
+TWE 5 2 7 2
+TWE 5 3 7 2
+TWE 5 3 8 2
+TWE 5 3 9 1
+TW 5 1 3
+TW 5 2 12
+TW 5 3 5
+TWINFO n=5 K=3 DEC=R CAP=99 CHECK=0 nout=20 prune_calls=80 mismatches=0 cpu=0.00

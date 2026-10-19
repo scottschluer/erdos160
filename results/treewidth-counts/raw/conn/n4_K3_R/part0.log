@@ -1,0 +1,8 @@
+TWE 4 1 3 2
+TWE 4 2 4 2
+TWE 4 2 5 1
+TWE 4 3 6 1
+TW 4 1 2
+TW 4 2 3
+TW 4 3 1
+TWINFO n=4 K=3 DEC=R CAP=99 CHECK=0 nout=6 prune_calls=25 mismatches=0 cpu=0.00
